@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="setLimitNum(-1)"
+        />
+
+    <com.laizexin.sdj.ui_textview.MarqueeTextView
+        android:id="@+id/tv_mar"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清晨我站在青青的牧场 看到神鹰披着那霞光 像一片祥云飞过蓝天 为藏家儿女带来吉祥 那是一条神奇的天路哎… 把人间的温暖送到边疆 从此山不再高路不再漫长 各族儿女欢聚一堂"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mq_marquee_repeat_limit = -1"
+        />
+
+    <com.laizexin.sdj.ui_textview.MarqueeTextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清晨我站在青青的牧场 看到神鹰披着那霞光 像一片祥云飞过蓝天 为藏家儿女带来吉祥 那是一条神奇的天路哎… 把人间的温暖送到边疆 从此山不再高路不再漫长 各族儿女欢聚一堂"
+        app:mq_marquee_repeat_limit="-1"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mq_marquee_repeat_limit = 2"
+        />
+
+    <com.laizexin.sdj.ui_textview.MarqueeTextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清晨我站在青青的牧场 看到神鹰披着那霞光 像一片祥云飞过蓝天 为藏家儿女带来吉祥 那是一条神奇的天路哎… 把人间的温暖送到边疆 从此山不再高路不再漫长 各族儿女欢聚一堂"
+        app:mq_marquee_repeat_limit="2"
+        />
+
+</LinearLayout>
