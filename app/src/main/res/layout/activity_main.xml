@@ -64,5 +64,13 @@
         android:visibility="visible"
         />
 
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="贝塞尔爱心"
+        android:visibility="visible"
+        />
+
 
 </LinearLayout>

@@ -47,5 +47,10 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this,ScratchViewActivity::class.java)
             startActivity(intent)
         }
+
+        btn8.setOnClickListener {
+            intent = Intent(this,BezierFavouriteActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
