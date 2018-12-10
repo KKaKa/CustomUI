@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".AutoScrollingTextViewActivity" />
         <activity android:name=".MarqueeTextViewActivity" />
+        <activity android:name=".FlickerTextViewActivity" />
+        <activity android:name=".StaticBlockActivity" />
+        <activity android:name=".Bezier2Activity" />
+        <activity android:name=".Bezier3Activity" />
+        <activity android:name=".ScratchViewActivity"></activity>
     </application>
 
 </manifest>

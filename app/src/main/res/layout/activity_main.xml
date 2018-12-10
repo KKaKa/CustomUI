@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="跑马灯"
+        android:visibility="visible"
         />
 
     <Button
@@ -20,6 +21,48 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="自动换行TextView"
+        android:visibility="visible"
         />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="闪烁TextView"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时钟"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="二阶贝塞尔"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三阶贝塞尔"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刮刮乐"
+        android:visibility="visible"
+        />
+
 
 </LinearLayout>

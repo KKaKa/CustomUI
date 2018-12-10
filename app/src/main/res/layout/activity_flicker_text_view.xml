@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlickerTextViewActivity">
+
+    <com.laizexin.sdj.ui_textview.FlickerTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ftv_color="@color/red"
+        android:text="啦啦啦啦啦阿啦啦啦阿拉啦啦"
+        />
+
+</android.support.constraint.ConstraintLayout>

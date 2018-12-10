@@ -3,4 +3,12 @@
     <declare-styleable name="MarqueeTextView">
         <attr name="mq_marquee_repeat_limit" format="integer" />
     </declare-styleable>
+
+    <declare-styleable name="Moon">
+        <attr name="moon_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlickerTextView">
+        <attr name="ftv_color" format="color"/>
+    </declare-styleable>
 </resources>

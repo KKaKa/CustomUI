@@ -22,5 +22,30 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this,AutoScrollingTextViewActivity::class.java)
             startActivity(intent)
         }
+
+        btn3.setOnClickListener{
+            intent = Intent(this,FlickerTextViewActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn4.setOnClickListener{
+            intent = Intent(this,StaticBlockActivity::class.java)
+            startActivity(intent)
+        }
+
+        btn5.setOnClickListener {
+            intent = Intent(this,Bezier2Activity::class.java)
+            startActivity(intent)
+        }
+
+        btn6.setOnClickListener{
+            intent = Intent(this,Bezier3Activity::class.java)
+            startActivity(intent)
+        }
+
+        btn7.setOnClickListener {
+            intent = Intent(this,ScratchViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
