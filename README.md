@@ -23,3 +23,6 @@
 
 ## 刮刮乐效果
 ![image](https://github.com/KKaKa/CustomUI/blob/master/gif/GIF5.gif)
+
+## 知乎广告效果
+![image](https://github.com/KKaKa/CustomUI/blob/master/gif/GIF8.gif)
