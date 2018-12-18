@@ -72,5 +72,13 @@
         android:visibility="visible"
         />
 
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿知乎广告"
+        android:visibility="visible"
+        />
+
 
 </LinearLayout>

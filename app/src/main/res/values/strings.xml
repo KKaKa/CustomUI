@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CustomUI</string>
+    <string name="title_activity_ad_image_view">AdImageViewActivity</string>
 </resources>

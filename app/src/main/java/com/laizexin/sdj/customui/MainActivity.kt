@@ -52,5 +52,10 @@ class MainActivity : AppCompatActivity() {
             intent = Intent(this,BezierFavouriteActivity::class.java)
             startActivity(intent)
         }
+
+        btn9.setOnClickListener {
+            intent = Intent(this,AdImageViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -23,7 +23,10 @@
         <activity android:name=".Bezier2Activity" />
         <activity android:name=".Bezier3Activity" />
         <activity android:name=".ScratchViewActivity" />
-        <activity android:name=".BezierFavouriteActivity"></activity>
+        <activity android:name=".BezierFavouriteActivity" />
+        <activity
+            android:name=".AdImageViewActivity"
+            android:label="@string/title_activity_ad_image_view"></activity>
     </application>
 
 </manifest>

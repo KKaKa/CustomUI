@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        />
+
+    <com.laizexin.sdj.ui_textview.AdImageView
+        android:id="@+id/iv_ad"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="matrix"
+        android:src="@mipmap/pic1"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
